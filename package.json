@@ -41,8 +41,8 @@
 
   "dependencies": {
     "prop-types": "^15.5.9",
-    "react-native-material-buttons": "git+https://github.com/nithinpp69/react-native-material-buttons",
-    "react-native-material-ripple": "git+https://github.com/nithinpp69/react-native-material-ripple",
-    "react-native-material-textfield": "git+https://github.com/nithinpp69/react-native-material-textfield"
+    "react-native-material-buttons": "git+https://github.com/nithinpp69/react-native-material-buttons.git",
+    "react-native-material-ripple": "git+https://github.com/nithinpp69/react-native-material-ripple.git",
+    "react-native-material-textfield": "git+https://github.com/nithinpp69/react-native-material-textfield.git"
   }
 }

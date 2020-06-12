@@ -43,6 +43,6 @@
     "prop-types": "^15.5.9",
     "react-native-material-buttons": "git+https://github.com/nithinpp69/react-native-material-buttons.git",
     "react-native-material-ripple": "git+https://github.com/nithinpp69/react-native-material-ripple.git",
-    "react-native-material-textfield": "git+https://github.com/nithinpp69/react-native-material-textfield.git"
+    "react-native-material-textfield": "git+https://github.com/noway/react-native-material-textfield.git#v0_12_0_with_0_62_fixes"
   }
 }

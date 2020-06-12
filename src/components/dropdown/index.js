@@ -188,10 +188,17 @@ export default class Dropdown extends PureComponent {
     };
   }
 
-  componentWillReceiveProps({ value }) {
-    if (value !== this.props.value) {
-      this.setState({ value });
+  // componentWillReceiveProps({ value }) {
+  //   if (value !== this.props.value) {
+  //     this.setState({ value });
+  //   }
+  // }
+
+  static getDerivedStateFromProps(props, state){
+    if(props.value != state.value){
+      return {value: props.value}
     }
+    return null;
   }
 
   componentDidMount() {
@@ -299,7 +306,7 @@ export default class Dropdown extends PureComponent {
             .timing(opacity, {
               duration: animationDuration,
               toValue: 1,
-              useNativeDriver,
+              useNativeDriver: true,
             })
             .start(() => {
               if (this.mounted && 'ios' === Platform.OS) {
@@ -323,7 +330,7 @@ export default class Dropdown extends PureComponent {
       .timing(opacity, {
         duration: animationDuration,
         toValue: 0,
-        useNativeDriver,
+        useNativeDriver:true,
       })
       .start(() => {
         this.focused = false;

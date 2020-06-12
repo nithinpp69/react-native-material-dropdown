@@ -972,31 +972,29 @@ react-is@^16.8.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-material-buttons@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/react-native-material-buttons/-/react-native-material-buttons-0.5.0.tgz#ab2b3e3fc3f500ca713f51e9d75978aff602152a"
-  integrity sha1-qys+P8P1AMpxP1Hp11l4r/YCFSo=
+"react-native-material-buttons@git+https://github.com/nithinpp69/react-native-material-buttons":
+  version "0.6.0"
+  resolved "git+https://github.com/nithinpp69/react-native-material-buttons#3f8d0e692aca9c3132b4ec771932527fa03bcbcc"
   dependencies:
     prop-types "^15.5.9"
-    react-native-material-ripple "^0.7.0"
+    react-native-material-ripple "^0.9.1"
 
-react-native-material-ripple@^0.7.0:
-  version "0.7.5"
-  resolved "https://registry.yarnpkg.com/react-native-material-ripple/-/react-native-material-ripple-0.7.5.tgz#e2af5110680532f14aea3c3a438247be2ffef659"
-  integrity sha1-4q9REGgFMvFK6jw6Q4JHvi/+9lk=
+react-native-material-ripple@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/react-native-material-ripple/-/react-native-material-ripple-0.9.1.tgz#db1ad9dd7cf97011e4cd8475ae2041ade0f891cb"
+  integrity sha512-dHjARdKoGD3LXwPh2TkURabywM5BfdpKc/AHplJTfBMalhVZ2bc7iJoJmNhNnmT/TZ+B3szL6uV1mO7Pv8zNeA==
   dependencies:
     prop-types "^15.5.10"
 
-react-native-material-ripple@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.yarnpkg.com/react-native-material-ripple/-/react-native-material-ripple-0.8.0.tgz#b8c24e6fdea2af2a21e8468b1f40b35483019e2f"
-  integrity sha1-uMJOb96iryoh6EaLH0CzVIMBni8=
+"react-native-material-ripple@git+https://github.com/nithinpp69/react-native-material-ripple":
+  version "0.9.1"
+  resolved "git+https://github.com/nithinpp69/react-native-material-ripple#77db1744b301c856f66055e132c8712ea836c8f3"
   dependencies:
     prop-types "^15.5.10"
 
-"react-native-material-textfield@git+https://github.com/noway/react-native-material-textfield.git#v0_12_0_with_0_62_fixes":
-  version "0.12.0"
-  resolved "git+https://github.com/noway/react-native-material-textfield.git#ab85973770e62202d7f5f83afb1c2f57e91318ca"
+"react-native-material-textfield@git+https://github.com/nithinpp69/react-native-material-textfield":
+  version "0.16.1"
+  resolved "git+https://github.com/nithinpp69/react-native-material-textfield#eb5bee85fbb457437e3042d63aecb672c0dd6ec3"
   dependencies:
     prop-types "^15.5.9"
 
